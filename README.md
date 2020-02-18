@@ -13,8 +13,10 @@ The following is an example with Maghrib time as 6 pm, Isha time as 7 pm and Faj
 
 
 
-```Time    1800  1900       2200           0200          0550 0600
+```
+Time    1800  1900       2200           0200          0550 0600
      ---|-----|----------|--------------|-------------|----|---->
 Event   Magh. Isha    1/3 Marker     2/3 Marker     Tahj.  Fajr
-                                   (Tahj. Starts)```
+                                   (Tahj. Starts)
+```
 
