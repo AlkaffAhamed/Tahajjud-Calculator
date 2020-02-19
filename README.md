@@ -7,7 +7,9 @@ Muslims pray 5 times daily and in addition to that, some will pray Tahajjud time
 
 "The best time for Tahajjud is the last third portion of the night." (Abu Hurairah:Fiqh)
 
-From the above definition, it is implied that the Tahajjud time starts at the $2/3$ marker between Maghrib time and Fajr time. It ends about 10 to 15 minutes before Fajr time starts. 
+From the above definition, it is implied that the Tahajjud time starts at the 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\frac{2}{3}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\frac{2}{3}" title="\frac{2}{3}" /></a>
+marker between Maghrib time and Fajr time. It ends about 10 to 15 minutes before Fajr time starts. 
 
 The following is an example with Maghrib time as 6 pm, Isha time as 7 pm and Fajr time as 6 am. For this example, Tahajjud is supposed to start at 2 am and end at 5:50 am. 
 
