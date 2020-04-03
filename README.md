@@ -36,41 +36,21 @@ Source: https://www.muis.gov.sg/-/media/Files/Corporate-Site/Prayer-Timetable-20
 
 The following steps are used to calculate the Tahajjud starting time: 
 
-1. Calculate the exact time difference (
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{interval}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" /></a>
-) between Maghrib (
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Maghrib}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" /></a>
-) and next day Fajr (
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Fajr}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" /></a>
-). 
+1. Calculate the exact time difference (<img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" />) between Maghrib (<img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" />) and next day Fajr (<img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" />). 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Interval}&space;=&space;t_{Fajr}&space;-&space;t_{Maghrib}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Interval}&space;=&space;t_{Fajr}&space;-&space;t_{Maghrib}" title="t_{Interval} = t_{Fajr} - t_{Maghrib}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?t_{Interval}&space;=&space;t_{Fajr}&space;-&space;t_{Maghrib}" title="t_{Interval} = t_{Fajr} - t_{Maghrib}" />
 
-2. Calculate the time interval (
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /></a>
-) for one-third by dividing 
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{interval}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" /></a>
-by 3. 
+2. Calculate the time interval (<img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" />) for one-third by dividing <img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" />by 3. 
    
-   <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Third}&space;=&space;\frac{t_{Interval}}{3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Third}&space;=&space;\frac{t_{Interval}}{3}" title="t_{Third} = \frac{t_{Interval}}{3}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?t_{Third}&space;=&space;\frac{t_{Interval}}{3}" title="t_{Third} = \frac{t_{Interval}}{3}" />
 
-3. Either add twice the 
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /></a> 
- to 
- <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Maghrib}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" /></a>
- or subtract 
- <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /></a>
- from 
- <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Fajr}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" /></a>
- . This result will be the Tahajjud starting time (
- <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Tahajjud}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}" title="t_{Tahajjud}" /></a>
- ). 
+3. Either add twice the <img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /> to <img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" /> or subtract <img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /> from <img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" />. This result will be the Tahajjud starting time (<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}" title="t_{Tahajjud}" />). 
 
-   <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" title="t_{Tahajjud} = t_{Maghrib} + 2t_{Third}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" title="t_{Tahajjud} = t_{Maghrib} + 2t_{Third}" />
 
-   or
-
-   <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" title="t_{Tahajjud} = t_{Fajr} - t_{Third}" /></a>
+         or
+   
+<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" title="t_{Tahajjud} = t_{Fajr} - t_{Third}" />
 
 
 
@@ -78,8 +58,8 @@ by 3.
 
 We have 
 
-1. Maghrib time: <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Maghrib}&space;=" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}&space;=" title="t_{Maghrib} =" /></a> 6:51 pm [18:51]
-2. Next day Fajr time: <a href="https://www.codecogs.com/eqnedit.php?latex=t_{Fajr}&space;=" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Fajr}&space;=" title="t_{Fajr} =" /></a> 5:27 am [05:27]
+1. Maghrib time: <img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" /> = 6:51 pm [18:51]
+2. Next day Fajr time: <img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" /> = 5:27 am [05:27]
 
 Following the Algorithm:
 
@@ -95,7 +75,7 @@ Following the Algorithm:
 
 **Step 2**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Third}&space;=&space;\frac{t_{Interval}}{3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Third}&space;=&space;\frac{t_{Interval}}{3}" title="t_{Third} = \frac{t_{Interval}}{3}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?t_{Third}&space;=&space;\frac{t_{Interval}}{3}" title="t_{Third} = \frac{t_{Interval}}{3}" />
 
 = [10:36]
 
@@ -103,7 +83,7 @@ Following the Algorithm:
 
 **Step 3**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" title="t_{Tahajjud} = t_{Maghrib} + 2t_{Third}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" title="t_{Tahajjud} = t_{Maghrib} + 2t_{Third}" />
 
 = [18:51] + 2*(03:32)
 
@@ -113,9 +93,9 @@ Following the Algorithm:
 
 = <u>[01:55 + 1 day] (next day 1:55 am)</u>
 
-or 
+      or 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" title="t_{Tahajjud} = t_{Fajr} - t_{Third}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" title="t_{Tahajjud} = t_{Fajr} - t_{Third}" />
 
 = [05:27 + 1 day] - 03:32
 
