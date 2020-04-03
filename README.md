@@ -97,7 +97,7 @@ Following the Algorithm:
 
 = [25:55]
 
-= <u>[01:55 + 1 day] (next day 1:55 am)</u>
+= <ins>[01:55 + 1 day] (next day 1:55 am)</ins>
 
    &lt;or&gt; 
 
@@ -105,7 +105,7 @@ Following the Algorithm:
 
 = [05:27 + 1 day] - 03:32
 
-= <u>[01:55 + 1 day] (next day 1:55 am)</u>
+= <ins>[01:55 + 1 day] (next day 1:55 am)</ins>
 
 
 
