@@ -36,19 +36,25 @@ Source: https://www.muis.gov.sg/-/media/Files/Corporate-Site/Prayer-Timetable-20
 
 The following steps are used to calculate the Tahajjud starting time: 
 
-1. Calculate the exact time difference (<img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" />) between Maghrib (<img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" />) and next day Fajr (<img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" />). 
+**Step 1**
+
+Calculate the exact time difference (<img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" />) between Maghrib (<img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" />) and next day Fajr (<img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" />). 
 
 <img src="https://latex.codecogs.com/gif.latex?t_{Interval}&space;=&space;t_{Fajr}&space;-&space;t_{Maghrib}" title="t_{Interval} = t_{Fajr} - t_{Maghrib}" />
 
-2. Calculate the time interval (<img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" />) for one-third by dividing <img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" />by 3. 
+**Step 2**
+
+Calculate the time interval (<img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" />) for one-third by dividing <img src="https://latex.codecogs.com/gif.latex?t_{interval}" title="t_{interval}" />by 3. 
    
 <img src="https://latex.codecogs.com/gif.latex?t_{Third}&space;=&space;\frac{t_{Interval}}{3}" title="t_{Third} = \frac{t_{Interval}}{3}" />
 
-3. Either add twice the <img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /> to <img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" /> or subtract <img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /> from <img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" />. This result will be the Tahajjud starting time (<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}" title="t_{Tahajjud}" />). 
+**Step 3**
+
+Either add twice the <img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /> to <img src="https://latex.codecogs.com/gif.latex?t_{Maghrib}" title="t_{Maghrib}" /> or subtract <img src="https://latex.codecogs.com/gif.latex?t_{Third}" title="t_{Third}" /> from <img src="https://latex.codecogs.com/gif.latex?t_{Fajr}" title="t_{Fajr}" />. This result will be the Tahajjud starting time (<img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}" title="t_{Tahajjud}" />). 
 
 <img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Maghrib}&space;&plus;&space;2t_{Third}" title="t_{Tahajjud} = t_{Maghrib} + 2t_{Third}" />
 
-         or
+&lt;or&gt; 
    
 <img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" title="t_{Tahajjud} = t_{Fajr} - t_{Third}" />
 
@@ -93,7 +99,7 @@ Following the Algorithm:
 
 = <u>[01:55 + 1 day] (next day 1:55 am)</u>
 
-      or 
+   &lt;or&gt; 
 
 <img src="https://latex.codecogs.com/gif.latex?t_{Tahajjud}&space;=&space;t_{Fajr}&space;-&space;t_{Third}" title="t_{Tahajjud} = t_{Fajr} - t_{Third}" />
 
